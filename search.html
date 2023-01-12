@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+      <meta
+      content="Review Film dan Series"
+      name="description"
+    />
+    <meta content="film, review, series, trailer" name="keywords" />
+
+    <meta content="dimasdaffa" name="author" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stlyr.css">
+     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon.ico">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>gassripiuw</title>
+</head>
+
+<body>
+      <header>
+        <div class="container ">
+          <div class="navbar flex1">
+            <div class="logo">
+                <h1 class="logo">gassripiuw</h1>
+            </div>
+
+            <nav>
+              <ul id="menuitem">
+                <li><a href="index.html">Home</a></li>
+               <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="account.html">Account</a></li>
+              </ul>
+            </nav>
+            <span class="fa fa-bars" onclick="menutoggle()"></span>
+
+             <div class="subscribe flex">
+              <a href="search.html"><i class="fas fa-search" style="color: white;"></i></a>
+              <a href="account.html"><i id="palybtn" class="fas fa-user" style="color: white;"></i></a>
+            </div>
+          </div>
+        </div>
+      </header>
+                <!-- end navbar container -->
+         <input type = "text" class = "form-control" placeholder="Search Movie Title" id = "movie-search-box" onkeyup="findMovies()" onclick = "findMovies()">
+
+        <div class = "search-list" id = "search-list">
+                </div>
+
+        <!-- result container -->
+        <div class = "container">
+            <div class = "result-container">
+                <div class = "result-grid" id = "result-grid">
+                </div>
+            </div>
+        </div>
+        <!-- end result container -->
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

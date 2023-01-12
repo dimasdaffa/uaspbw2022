@@ -1,0 +1,433 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta
+      content="Review Film dan Series"
+      name="description"
+    />
+    <meta content="film, review, series, trailer" name="keywords" />
+
+    <meta content="dimasdaffa" name="author" />
+  <title>gassripiuw</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stlyr.css">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon.ico">  
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!-- Owl Carousel css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <!-- Owl Carousel css-->
+ <!-- jquery css-->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <!-- jquery css-->
+
+</head>
+
+<body>
+  <section class="home">
+    <div class="headerbg ">
+      <header>
+        <div class="container ">
+          <div class="navbar flex1">  
+            <div class="logo">
+               <div class="logo-container">
+                <h1 class="logo">gassripiuw</h1>
+            </div>
+            </div>
+
+            <nav>
+              <ul id="menuitem">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="account.html">Account</a></li>
+              </ul>
+            </nav>
+            
+            <span class="fa fa-bars" onclick="menutoggle()"></span>
+
+            <div class="subscribe flex">
+              <a href="search.html"><i class="fas fa-search" style="color: white;"></i></a>
+              <a href="account.html"><i id="palybtn" class="fas fa-user" style="color: white;"></i></a>
+              
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="home_content mtop">
+        <div class="container">
+          <div class="left">
+            <h1>MONEY HEIST</h1>
+
+
+
+            <p>An unusual group of robbers attempt to carry out the most perfect robbery in Spanish history - stealing 2.4 billion euros from the Royal Mint of Spain.
+            </p>
+            <div class="button flex">
+              <a href="search.html"><button class="btn">MORE DETAILS  </button></a>
+              <a href="https://www.youtube.com/watch?v=L9giOct92Js"><i id="palybtn" class="fas fa-play"></i></a>
+              <p>WATCH TRAILER</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    var menuitem = document.getElementById("menuitem");
+    menuitem.style.maxHeight = "0px";
+
+    function menutoggle() {
+      if (menuitem.style.maxHeight == '0px') {
+        menuitem.style.maxHeight = "200px"
+      } else {
+        menuitem.style.maxHeight = "0px"
+      }
+    }
+
+    window.addEventListener("scroll", function() {
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 50);
+    })
+  </script>
+
+  <section class="popular mtop">
+    <div class="container ">
+      <div class="heading flex1">
+        <h2>Popular Series</h2>
+          <a href="search.html"><button class="btn">MORE DETAILS  </button></a>
+      </div>
+
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="https://m.media-amazon.com/images/M/MV5BM2ZmMjEyZmYtOGM4YS00YTNhLWE3ZDMtNzQxM2RhNjBlODIyXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_SX300.jpg" alt="">
+
+            </div>
+
+            <div class="content">
+              <a href="https://www.youtube.com/watch?v=pg8iLdTJgh0"><i id="palybtn" class="fas fa-play" style="color: white;"></i></a>
+            </div>
+            <div class="text">
+              <h3>Wednesday</h3>
+              <div class="time flex">
+                <span>1 Season</span>
+                <i class="fas fa-circle"></i>
+                <a>Comedy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="https://m.media-amazon.com/images/M/MV5BYWE3MDVkN2EtNjQ5MS00ZDQ4LTliNzYtMjc2YWMzMDEwMTA3XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_SX300.jpg" alt="">
+
+            </div>
+
+            <div class="content">
+              <a href="https://www.youtube.com/watch?v=oqxAJKy0ii4"><i id="palybtn" class="fas fa-play" style="color: white;"></i></a>
+            </div>
+            <div class="text">
+              <h3>Squid Game</h3>
+              <div class="time flex">
+                <span>1 Season</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="https://m.media-amazon.com/images/M/MV5BZjYzZDgzMmYtYjY5Zi00YTk1LThhMDYtNjFlNzM4MTZhYzgyXkEyXkFqcGdeQXVyMTE5NDQ1MzQ3._V1_SX300.jpg" alt="">
+
+            </div>
+
+            <div class="content">
+               <a href="https://www.youtube.com/watch?v=jImOqxQ0kkM"><i id="palybtn" class="fas fa-play" style="color: white;"></i></a>
+            </div>
+            <div class="text">
+              <h3>Peaky Blinders</h3>
+              <div class="time flex">
+                <span>6 Season</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="https://m.media-amazon.com/images/M/MV5BM2EwMmRhMmUtMzBmMS00ZDQ3LTg4OGEtNjlkODk3ZTMxMmJlXkEyXkFqcGdeQXVyMjM5ODk1NDU@._V1_SX300.jpg" alt="">
+
+            </div>
+
+            <div class="content">
+            <a href="https://www.youtube.com/watch?v=oZn3qSgmLqI"><i id="palybtn" class="fas fa-play" style="color: white;"></i></a>
+            </div>
+            <div class="text">
+              <h3>The Queen's Gambit</h3>
+              <div class="time flex">
+                <span>1 Season</span>
+                <i class="fas fa-circle"></i>
+                <a>Drama</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="https://m.media-amazon.com/images/M/MV5BMDZkYmVhNjMtNWU4MC00MDQxLWE3MjYtZGMzZWI1ZjhlOWJmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg" alt="">
+
+            </div>
+
+            <div class="content">
+              <a href="https://www.youtube.com/watch?v=b9EkMc79ZSU"><i id="palybtn" class="fas fa-play" style="color: white;"></i></a>
+            </div>
+            <div class="text">
+              <h3>Stranger Things </h3>
+              <div class="time flex">
+                <span>4 Season</span>
+                <i class="fas fa-circle"></i>
+                <a>Drama</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="https://m.media-amazon.com/images/M/MV5BNTg3NjcxYzgtYjljNC00Y2I2LWE3YmMtOTliZTkwYTE1MmZiXkEyXkFqcGdeQXVyNTY4NDc5MDE@._V1_SX300.jpg" alt="">
+  
+            </div>
+
+            <div class="content">
+             <a href="https://www.youtube.com/watch?v=x8UAUAuKNcU"><i id="palybtn" class="fas fa-play" style="color: white;"></i></a>
+            </div>
+            <div class="text">
+              <h3>The Lord of the Rings: The Rings of Power</h3>
+              <div class="time flex">
+                <span>1 Season</span>
+                <i class="fas fa-circle"></i>
+                <a>Adventure</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="https://m.media-amazon.com/images/M/MV5BZmUwMGI4M2QtYmRlYy00NDQ1LThjNDAtYTI4NDNiNDg5MDViXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_SX300.jpg" alt="">
+
+            </div>
+
+            <div class="content">
+               <a href="https://www.youtube.com/watch?v=49_44FFKZ1M"><i id="palybtn" class="fas fa-play" style="color: white;"></i></a>
+            </div>
+            <div class="text">
+              <h3>Alice in Borderland</h3>
+              <div class="time flex">
+                <span>2 Season</span>
+                <i class="fas fa-circle"></i>
+                <a>Fantasy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="popular mtop">
+    <div class="container ">
+      <div class="heading flex1">
+        <h2>Popular Movies</h2>
+         <a href="search.html"><button class="btn">MORE DETAILS  </button></a>
+      </div>
+
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="https://m.media-amazon.com/images/M/MV5BMzFkM2YwOTQtYzk2Mi00N2VlLWE3NTItN2YwNDg1YmY0ZDNmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg" alt="">
+
+            </div>
+
+            <div class="content">
+              <a href="https://youtu.be/0iNmVVlmmv8"><i id="palybtn" class="fas fa-play" style="color: white;"></i></a>
+            </div>
+            <div class="text">
+              <h3>Home Alone</h3>
+              <div class="time flex">
+                <span>1hrs 43mins</span>
+                <i class="fas fa-circle"></i>
+                <a>Comedy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX300.jpg" alt="">
+
+            </div>
+
+            <div class="content">
+              <a href="https://youtu.be/TcMBFSGVi1c"><i id="palybtn" class="fas fa-play" style="color: white;"></i></a>
+            </div>
+            <div class="text">
+              <h3>Avengers: Endgame</h3>
+              <div class="time flex">
+                <span>3hrs 01mins</span>
+                <i class="fas fa-circle"></i>
+                <a>Sci-Fi</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="https://m.media-amazon.com/images/M/MV5BYjBjM2Y5YWEtNTgyMi00MzcwLThkYTctYzZmY2FkNjZjZTRjXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_SX300.jpg" alt="">
+
+            </div>
+
+            <div class="content">
+              <a href="https://www.youtube.com/watch?v=_ykK5YsWes0"><i id="palybtn" class="fas fa-play" style="color: white;"></i></a>
+            </div>
+            <div class="text">
+              <h3>KKN di Desa Penari</h3>
+              <div class="time flex">
+                <span>2hrs 01mins</span>
+                <i class="fas fa-circle"></i>
+                <a>Horror</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="https://m.media-amazon.com/images/M/MV5BMDljNTQ5ODItZmQwMy00M2ExLTljOTQtZTVjNGE2NTg0NGIxXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_SX300.jpg" alt="">
+
+            </div>
+
+            <div class="content">
+                 <a href="https://www.youtube.com/watch?v=8Qn_spdM5Zg&t=71s"><i id="palybtn" class="fas fa-play" style="color: white;"></i></a>
+            </div>
+            <div class="text">
+              <h3>Star Wars: Episode IX - The Rise of Skywalker</h3>
+              <div class="time flex">
+                <span>2hrs 2mins</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg" alt="">
+
+            </div>
+
+            <div class="content">
+              <a href="https://www.youtube.com/watch?v=UaVTIH8mujA"><i id="palybtn" class="fas fa-play" style="color: white;"></i></a>
+            </div>
+            <div class="text">
+              <h3>The Godfather </h3>
+              <div class="time flex">
+                <span>2hrs 55mins</span>
+                <i class="fas fa-circle"></i>
+                <a>Crime</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Owl Carousel -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+  <!-- Owl Carousel -->
+
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 20,
+      nav: true,
+      dots: false,
+      responsive: {
+        411: {
+          items: 1
+        },
+        768: {
+          items: 2
+        },
+        1000: {
+          items: 4
+        }
+      }
+    })
+  </script>
+
+  <section class="new_realase top">
+    <div class="container">
+      <div class="owl-carousel owl-carousel2 owl-theme">
+        <div class="items">
+          <div class="left">
+            <div class="img">
+              <img src="https://variety.com/wp-content/uploads/2022/06/Puss-in-Boots-The-Last-Wish-2.jpg" alt="">
+            </div>
+            <div class="heading">
+              <h2> <span></span> NEW RELEASE</h2>
+              <h1>Puss in Boots: The Last Wish</h1>
+            </div>
+            <div class="time flex">
+              <span>1hrs 40mins</span>
+
+              <i class="fas fa-circle"></i>
+              <p>2022</p>
+              <i class="fas fa-circle"></i>
+              <button>Action Comedy</button>
+            </div>
+
+            <div class="button flex">
+                <a href="search.html"><button class="btn">MORE DETAILS  </button></a>
+                 <a href="https://youtu.be/RqrXhwS33yc"><i id="palybtn" class="fas fa-play" style="color: white;"></i></a>
+              <p>WATCH TRAILER</p>
+            </div>
+          </div>
+        </div>
+        
+  </section>
+
+  <script>
+    $('.owl-carousel2').owlCarousel({
+      loop: true,
+      margin: 20,
+      dots: true,
+      items: 1
+    })
+  </script>
+  
+    <p class="legal">Copyright (c) 2023 Copyright Holder All Rights Reserved made By <a href="https://www.instagram.com/_dimas_daffa/">@dimasdaffa</a></p>
+  </footer>
+</body>
+
+</html>
